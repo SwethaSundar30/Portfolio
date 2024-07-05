@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swetha's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <!--h1>Swetha S.</h1-->
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><i class="fa-regular fa-x" onclick="closemenu()"></i></li>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h2>Engineer</h2>
+                <h1>Hi, I'm <span>SWETHA SUDALAIYANDI</span></h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <!--div class="about-col-1">
+                    <img src="images/about.jpg" alt="About Me" class="about-img">
+                </div-->
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>B.E. Computer Science and Engineering student with strong skills in Python, AI, and Web development. Passionate about leveraging technology to solve real-world problems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="skills-list">
+                <div class="skill"><span>C Programming</span></div>
+                <div class="skill"><span>Python</span></div>
+                <div class="skill"><span>SQL</span></div>
+                <div class="skill"><span>Java</span></div>
+                <div class="skill"><span>HTML</span></div>
+                <div class="skill"><span>CSS</span></div>
+                <div class="skill"><span>JavaScript</span></div>
+                <div class="skill"><span>Machine Learning</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h1 class="sub-title">Experience</h1>
+            <ul>
+                <li><span>FullStack Intern - Graztech Private Limited</span><br>Developed a platform for higher education that assists students in finding the right universities through counselor and
+                    admissions team support based on a sophisticated recommendation system. The platform includes advanced features such as a LinkedIn profile extractor, psychometric tests, and report generation
+                    for both Big Five personality traits and MBTI types.</li>
+                <li><span>Artificial Intelligence Intern - RBG.AI</span><br>Created a tool for text extraction and summarization, enhancing text processing efficiency by 40%.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <!--img src="images/project1.jpg" alt="IngredientIQ"-->
+                    <h2>IngredientIQ</h2>
+                    <div class="layer">
+                        <h3>IngredientIQ</h3>
+                        <p>OCR and NLP-based tool to analyze food labels and provide dietary insights.</p>
+                        <a href="https://github.com/SwethaSundar30/IngredientIQ.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <!--img src="images/project2.jpg" alt="Interactive Learning App"-->
+                    <h2>Interactive Learning App</h2>
+                    <div class="layer">
+                        <h3>Interactive Learning App</h3>
+                        <p>Front-end web application with quizzes and educational games.</p>
+                        <a href="https://github.com/SwethaSundar30/Interactive-Learning-App.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i> swethasundar003@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> 9600143620</p>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/swethasundar003" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/SwethaSundar30" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="#" download class="btn">Download CV</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
